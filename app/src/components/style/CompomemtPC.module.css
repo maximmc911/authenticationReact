@@ -1,0 +1,30 @@
+/* Style of AutoPagesComponentPC component */
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    margin: 20px;
+    background: rgba(0, 8, 66, 1);
+    border-radius: 15px;
+    border: none;
+    padding: 50px;
+}
+
+.logo img {
+    width: 350px;
+    height: 350px;
+}
+
+.description {
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 870px) {
+    .image {
+        display: none;
+    }
+}
